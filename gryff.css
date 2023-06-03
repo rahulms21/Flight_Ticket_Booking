@@ -1,0 +1,123 @@
+body {
+        /* background-color:mediumturquoise; */
+        background-image: url("spbg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        /* padding-top: 30px; */
+}
+.new {
+    background-color: #00203fff;
+    padding: 50px 0;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: blanchedalmond;
+  }
+  .tab {
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+    padding-top: 0px;
+    background-color: #00203fff;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .tab a {
+    background-color: #00203fff;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 16px;
+  }
+  .tab a:hover {
+    background-color: rgb(226, 47, 47);
+    color: aliceblue;
+  }
+  .tab a.home {
+    background-color: green;
+    color: bisque;
+  }
+  #adform {
+    background-color: white;
+    padding: 50px;
+    width: 20%;
+    border: solid black 1px;
+    margin: 120px auto;
+    border-radius: 2px;
+    align-content: center;
+  }
+  #adsub {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-left: 40%;
+    align-content: center;
+    text-align: center;
+  }
+  .tab a.pecu {
+    background-color: green;
+  }
+  .tablet {
+    table-layout: initial;
+  }
+  th {
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: chartreuse;
+  }
+  td {
+    border: 1px solid black;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  table {
+    border: 1px solid black;
+    width: fit-content;
+    border-collapse: collapse;
+  }
+  tr:hover {
+    background-color: rgb(16, 17, 13);
+  }
+  tr:nth-child(even) {
+    background-color: indianred;
+  }
+  tr:nth-child(odd) {
+    background-color: lightslategray;
+  }
+  img {
+    float: right;
+  }
+  .adnav {
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 0;
+    padding-top: 0px;
+    background-color: #00203fff;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .adnav a {
+    background-color: #00203fff;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 16px;
+  }
+  .adnav a:hover {
+    background-color: rgb(226, 47, 47);
+    color: aliceblue;
+  }
+  .adnav a.home {
+    background-color: green;
+    color: bisque;
+  }
+  .adnav a.pecu {
+    background-color: green;
+  }
